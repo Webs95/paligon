@@ -9,6 +9,12 @@ html {
   font-family: 'Varela Round', sans-serif;
 }
 
+@media screen and (width: 480px) {
+  html {
+    font-size: 5px;
+  }
+}
+
 body {
   background-color: #1f1f1f;
 }
@@ -24,6 +30,7 @@ body {
   height: 70rem;
   margin: 0 auto;
   border: 1px solid #fff;
+  font-size: 1rem;
 }
 
 .box {
@@ -51,21 +58,22 @@ body {
 }
 
 .one {
-  left: 4rem;
+  left: 6rem;
 }
 
 .two {
-  right: 4rem;
+  right: 7rem;
   bottom: 3rem;
 }
 
 .three {
   left: 7rem;
+  top: 13rem;
 }
 
 .four {
   left: 10rem;
-  top: 4rem;
+  top: 23rem;
 }
 
 .box_name {
